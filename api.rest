@@ -9,4 +9,15 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8080/api/books HTTP/1.1
+GET https://java-spring-boot-xems.onrender.com/api/books HTTP/1.1
+
+###
+
+POST https://java-spring-boot-xems.onrender.com/api/books 
+Content-Type: application/json 
+
+{
+    "title": "Head First Java",
+    "author":"Kathy Sierra",
+    "price":550
+}
