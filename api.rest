@@ -21,3 +21,26 @@ Content-Type: application/json
     "author":"Kathy Sierra",
     "price":550
 }
+
+###
+
+POST https://java-spring-boot-xems.onrender.com/api/books/bulk
+Content-Type: application/json
+
+[
+    {
+        "title": "Clean Architecture",
+        "author": "Robert C. Martin",
+        "price": 549
+    },
+    {
+        "title": "Effective Kotlin",
+        "author": "Marcin Moskala",
+        "price": 630
+    },
+    {
+        "title": "Grokking Algorithms",
+        "author": "Aditya Bhargava",
+        "price": 499
+    }
+]
