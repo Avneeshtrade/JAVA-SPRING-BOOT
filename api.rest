@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/books 
+Content-Type: application/json 
+
+{
+    "title": "Head First Java",
+    "author":"Kathy Sierra",
+    "price":550
+}
+
+###
+
+GET http://localhost:8080/api/books HTTP/1.1
